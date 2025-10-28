@@ -1,0 +1,123 @@
+:root {
+  --color-primary: #7b68a6;
+  --color-secondary: #8b7d9b;
+  --color-success: #7d9b8a;
+  --color-info: #7d8a9b;
+  --color-background: #aedcf7;
+  --color-surface: #3a3542;
+  --color-text: #0817eba6;
+  --color-text-secondary: #b8b6bb;
+  --color-border: #4a4552;
+}
+
+* {
+  margin: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, "Courier New", Courier,
+    monospace;
+  background-color: var(--color-background);
+  color: var(--color-text);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 12000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.grid {
+  display: grid;
+  grid-template-columns: 3 (auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+.header {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(
+    135deg,
+    var(--color-primary),
+    var(--color-secondary)
+  );
+  border-radius: 15px;
+  margin-bottom: 40px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.header h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+  color: var(--color-text);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.subtitle {
+  font-size: 1.3em;
+  color: var(--color-text-secondary);
+}
+
+.intro-section,
+.form-section,
+.course-content,
+.features-section,
+.action-section {
+  background-color: var(--color-surface);
+  padding: 40px;
+  margin-bottom: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(240, 7, 7, 0.2);
+  border: 1px solid var(--color-border);
+}
+
+h2 {
+  font-size: 2.2em;
+  margin-bottom: 20px;
+  color: var(--color-primary);
+  border-bottom: 3px solid var(--color-primary);
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.6em;
+  color: var(--color-secondary);
+  margin-bottom: 12px;
+}
+
+h4 {
+  font-size: 1.3em;
+  color: var(--color-accent);
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  color: var(--color-text-secondary);
+  font-size: 1.05em;
+}
+button {
+  cursor: pointer;
+  border: lineStyle;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 1.05em;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.btn-primary {
+  background-color: #0aecb3;
+  color: var(--color-text);
+  box-shadow: 0 4px 8px rgba(123, 104, 166, 0.3);
+}
+
+.btn-primary:hover {
+  background-color: #2c0aec;
+  color: var(--color-text-secondary);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(123, 104, 166, 0.4);
+}
