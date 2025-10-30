@@ -1,0 +1,30 @@
+let perro ["bulldog", "Malinois", "Pastor Aleman"]
+let gato ["anaranjado", "Blanco", "Negro"]
+let huron ["Macho", "Hembra"]    
+
+if (animal = "perro") {
+    console.log(window.prompt("Muy bien has elegido un" + perro))
+} else if {ani}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

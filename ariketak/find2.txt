@@ -1,0 +1,11 @@
+archivovacio.txt
+cuarto.txt
+find.txt
+folder1
+folder1/vacio.txt
+folder1/zzz.txt
+folder1/abc.txt
+primero.txt
+rama33
+segundo.txt
+tercero.txt
